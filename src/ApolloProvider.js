@@ -10,7 +10,7 @@ import {setContext} from 'apollo-link-context';
 import {createUploadLink} from 'apollo-upload-client';
 
 const httpLink = createHttpLink({
-    uri:'http://localhost:3000' 
+    uri:'https://socioapp.azurewebsites.net' 
 });
 
 const piclink = createUploadLink({uri:'http://localhost:3000/graphql' });
